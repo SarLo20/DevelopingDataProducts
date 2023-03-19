@@ -1,7 +1,7 @@
 ---
 title: "Developing Data Products - Week2 Assignment"
 author: "Sarah Lott"
-date: "2023-03-15"
+date: "2023-03-19"
 output: html_document
 ---
 
@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Interactive map
 
+This is an interactive map created with the R package leaflet (see code snippet). It is not fancy but fulfills the requirements.
 ```{r map, message=FALSE}
 library(dplyr)
 library(leaflet)
